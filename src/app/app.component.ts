@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { TaskListComponent } from './task-list/task-list.component';
 import { TaskListItemComponent } from './task-list-item/task-list-item.component';
+import { NzPageHeaderModule } from 'ng-zorro-antd/page-header';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +14,8 @@ import { TaskListItemComponent } from './task-list-item/task-list-item.component
     CommonModule, 
     FormsModule,
     TaskListComponent,
-    TaskListItemComponent
+    TaskListItemComponent,
+    NzPageHeaderModule,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
