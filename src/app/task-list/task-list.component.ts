@@ -23,9 +23,9 @@ export class TaskListComponent implements OnInit {
   constructor() { }
 
   tasks: Task[] = [
-    {title: '牛乳を買う', done: false, deadline: new Date('2021-01-01')},
-    {title: '可燃ゴミを出す', done: true, deadline: new Date('2020-01-02')},
-    {title: '銀行に行く', done: false, deadline: new Date('2020-01-03')},
+    {title: 'Buy Milk', done: false, deadline: new Date('2021-01-01')},
+    {title: 'Go to Work', done: true, deadline: new Date('2020-01-02')},
+    {title: 'Visit ankle', done: false, deadline: new Date('2020-01-03')},
   ];
 
   ngOnInit(): void {
